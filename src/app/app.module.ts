@@ -22,6 +22,7 @@ import { ArtworkDetailComponent } from './artworks/artwork-detail/artwork-detail
 import { ArrayifyPipe } from './common/arrayify.pipe';
 import { VisalgoComponent } from './projects/demo/visalgo/visalgo.component';
 import { PythonSamplesComponent } from './projects/demo/python-samples/python-samples.component';
+import { ScrollDirective } from './common/scroll.directive';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { PythonSamplesComponent } from './projects/demo/python-samples/python-sa
     ArtworkDetailComponent,
     ArrayifyPipe,
     VisalgoComponent,
-    PythonSamplesComponent
+    PythonSamplesComponent,
+    ScrollDirective
   ],
   imports: [
     BrowserModule,

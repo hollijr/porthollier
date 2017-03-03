@@ -8,7 +8,7 @@ import { CategoryService } from '../services/category.service';
 @Component({
   selector: 'app-artworks',
   templateUrl: './artworks.component.html',
-  styleUrls: ['../projects/project-styles.css', './artworks.component.css']
+  styleUrls: ['../projects/project-styles.css', './artworks.component.css'],
 })
 export class ArtworksComponent implements OnInit {
 
@@ -61,7 +61,6 @@ export class ArtworksComponent implements OnInit {
 
   }
 
-
   goToCategory(category:Category):void {
     this.selectedCategory = category;
     this.router.navigate(['.'], { relativeTo: this.route, fragment: category.name });
@@ -72,4 +71,7 @@ export class ArtworksComponent implements OnInit {
     this.router.navigate(['/artworks', this.selectedArtwork.id]);
   }
 
+  processScroll() {
+    console.log('scroll occurred');
+  }
 }

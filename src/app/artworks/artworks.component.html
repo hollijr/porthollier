@@ -1,5 +1,5 @@
 <a id="top" class="anchor"></a>
-<div class="container">  
+<div class="container" (window:scroll)="processScroll()">  
   <div class="col-xs-12">
     <h2>My Artworks</h2>
     <ul class="goto">
@@ -14,7 +14,7 @@
         <div *ngFor="let artwork of artworks[i]" (click)="goToDetail(artwork)" [class.selected]="artwork === selectedArtwork" class="col-xs-6 col-sm-4 col-md-3 project">
           <div class="project-wrapper">
             <div class="panel project-panel">
-              <img [src]="artwork.coverImg" class="img-responsive img-rounded" alt="artwork.altimg" [srcset]="artwork.SRCSET">
+              <img [src]="artwork.coverImg" class="img-responsive img-rounded" alt="artwork.altimg" [srcset]="artwork.srcset">
               <h4>{{artwork.title}}</h4>
               <span class="text-muted">{{artwork.summary}}</span>
             </div>
