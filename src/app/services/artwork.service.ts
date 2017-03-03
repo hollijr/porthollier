@@ -6,6 +6,12 @@ import { ARTWORK } from '../api/mock-artwork';
 @Injectable()
 export class ArtworkService {
 
+  getArtworkSlowly(): Promise<[Art[]]> {
+    return new Promise(resolve => {
+      setTimeout(() => resolve(this.getArtworks()), 2000);
+    });
+  }
+  
   getArtworks():Promise<[Art[]]> {
     return Promise.resolve(ARTWORK);  // returns an array of artwork arrays
   }

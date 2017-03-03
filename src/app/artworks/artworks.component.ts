@@ -58,6 +58,7 @@ export class ArtworksComponent implements OnInit {
     this.artworkService.getArtworks().then((result) => {
       this.artworks = result;
     });
+
   }
 
 

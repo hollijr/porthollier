@@ -34,20 +34,15 @@ export class ProjectService {
 
   // custom methods
   getProjectsArray() {
-    console.log('getProjects1 called');
     if (this.projects) {
-      console.log('projects already available');
       return Observable.of(this.projects);
     } else if (this.observable) {
-      console.log('request pending');
       return this.observable;
     } else {
-      console.log('send new request');
       let headers = new Headers();
       headers.append('Content-Type', 'application/json');
       this.observable = this.http.get(this.projectsUrl, { headers: headers })
         .map(response => {
-          console.log('response arrived');
           this.observable = null;
           if (response.status == 400) {
             return "FAILURE";
@@ -68,7 +63,6 @@ export class ProjectService {
                   if (project.componentName) {
                     project.component = this.componentTable[project.componentName];
                   }
-                  console.log('got project detail');
                   return project;
                 });
   }

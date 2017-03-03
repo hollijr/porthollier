@@ -14,4 +14,10 @@ export class CategoryService {
                 .then(categories => categories.find(category => category.id === id));
   }
 
+  getCategoriesSlowly(): Promise<Category[]> {
+    return new Promise(resolve => {
+      setTimeout(() => resolve(this.getCategories()), 2000);
+    });
+  }
+
 }

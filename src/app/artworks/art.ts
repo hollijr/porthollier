@@ -6,5 +6,8 @@ export class Art {
   desc:string;
   date:string;
   coverImg:string;
+  altimg:string;
+  srcset:string;
+  SRCSET:string;
   content:[{img:string,desc:string}];
 }

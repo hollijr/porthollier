@@ -7,6 +7,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'Christmas-theme sugar cookies iced with royal icing', 
       coverImg: 'assets/images/redWhiteChristmas.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/redWhiteChristmas.jpg',
       desc: '<p>I love making brightly colored cookies for Christmas!</p>',
       date: 'Dec 2008',
       content: [
@@ -25,6 +28,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'Rough ideas for decorating animal cookies', 
       coverImg: 'assets/images/artwork/cookies/animals.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/animals.jpg',
       desc: '<p>So these are not my best work.  Rather, they are cookies I made up and decorated quickly in order to get ideas for how to decorate these cutter shapes in the future.  I was also experimenting with different types of royal icing to see which had the best flavor and best consistency.</p>',
       date: '',
       content: [
@@ -42,6 +48,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'A sweet Christmas gift', 
       coverImg: 'assets/images/artwork/cookies/christmasbouquets.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/christmasbouquets.jpg',
       desc: '<p>Made these cookie bouquets for teacher Christmas gifts.</p>',
       date: 'Dec 2007',
       content: [
@@ -55,6 +64,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'A spring-time bouquet', 
       coverImg: 'assets/images/artwork/cookies/flower_bouquet.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/flower_bouquet.jpg',
       desc: '<p>A couple of sugar cookies flower bouquets I made for a dessert auction.</p>',
       date: 'March 2006',
       content: [
@@ -67,6 +79,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'Sugar cookie outside, buttercream inside!', 
       coverImg: 'assets/images/artwork/cookies/penguins.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/penguins.jpg',
       desc: '<p>These sugar cookies are iced in royal and filled with buttercream.</p>',
       date: 'June 2007',
       content: [
@@ -78,6 +93,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'Icing flowers ready to add to cookie top', 
       coverImg: 'assets/images/artwork/cookies/stackedFlowers0.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/stackedFlowers0.jpg',
       desc: '<p>Had some leftover royal icing so decided to make cookie toppers.</p>',
       date: '24 June 2016',
       content: [
@@ -90,6 +108,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'Wings to add to butterfly cookie', 
       coverImg: 'assets/images/artwork/cookies/butterflywings.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/butterflywings.jpg',
       desc: '<p>These butterfly wings could be used to add a 3D butterfly to a flower cookie or cake.  They can also be added to the wing portion of a butterfly-shaped cookie</p>',
       date: '24 June 2016',
       content: [
@@ -101,6 +122,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: '', 
       coverImg: 'assets/images/artwork/cookies/angel.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/angel.jpg',
       desc: '<p></p>',
       date: 'Dec 2016',
       content: [
@@ -112,6 +136,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: '', 
       coverImg: 'assets/images/artwork/cookies/apples.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/apples.jpg',
       desc: '<p></p>',
       date: '',
       content: [
@@ -125,6 +152,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: '', 
       coverImg: 'assets/images/artwork/cookies/birds.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/birds.jpg',
       desc: '<p>Made these cookie bouquets for teacher Christmas gifts.</p>',
       date: 'Dec 2016',
       content: [
@@ -137,6 +167,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'Once bitten, twice shy!', 
       coverImg: 'assets/images/artwork/cookies/bittengingermen.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/bittengingermen.jpg',
       desc: '<p>These gingerbread men aren\'t very hapy... they were made to look like someone has already taken a bite out of them.</p>',
       date: 'Dec 2015',
       content: [
@@ -149,6 +182,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'Testing out ideas', 
       coverImg: 'assets/images/artwork/cookies/kids.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/kids.jpg',
       desc: '<p></p>',
       date: 'Dec 2016',
       content: [
@@ -163,6 +199,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'For the cheerleader Christmas party', 
       coverImg: 'assets/images/artwork/cookies/cheer.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/cheer.jpg',
       desc: '<p>/p>',
       date: 'Dec 2007',
       content: [
@@ -174,6 +213,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'Trees, snowmen and angels', 
       coverImg: 'assets/images/artwork/cookies/christmas2015.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/christmas2015.jpg',
       desc: '<p></p>',
       date: 'Dec 2015',
       content: [
@@ -185,6 +227,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'Wreaths, lights and candy', 
       coverImg: 'assets/images/artwork/cookies/christmas2016.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/christmas2016.jpg',
       desc: '<p></p>',
       date: 'Dec 2016',
       content: [
@@ -198,6 +243,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'Birds, treats, trees, and more', 
       coverImg: 'assets/images/artwork/cookies/christmas2016birds.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/christmas2016birds.jpg',
       desc: '<p></p>',
       date: 'Dec 2016',
       content: [
@@ -211,6 +259,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'UW Husky Paw Print', 
       coverImg: 'assets/images/artwork/cookies/dawgs.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/dawgs.jpg',
       desc: '<p></p>',
       date: 'Dec 2016',
       content: [
@@ -222,6 +273,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: '', 
       coverImg: 'assets/images/artwork/cookies/elves.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/elves.jpg',
       desc: '',
       date: 'Dec 2015',
       content: [
@@ -233,6 +287,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: '', 
       coverImg: 'assets/images/artwork/cookies/fallLeavesFlowers.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/fallLeavesFlowers.jpg',
       desc: '<p></p>',
       date: '',
       content: [
@@ -245,6 +302,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: '', 
       coverImg: 'assets/images/artwork/cookies/flowers.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/flowers.jpg',
       desc: '<p></p>',
       date: '',
       content: [
@@ -256,6 +316,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'Dress, Hat, Shoes & Purse', 
       coverImg: 'assets/images/artwork/cookies/ladiesDress.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/ladiesDress.jpg',
       desc: '<p></p>',
       date: '',
       content: [
@@ -267,6 +330,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'Royal icing ideas', 
       coverImg: 'assets/images/artwork/cookies/lotsofbirds.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/lotsofbirds.jpg',
       desc: '<p></p>',
       date: 'Dec 2016',
       content: [
@@ -278,6 +344,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'Christmas ', 
       coverImg: 'assets/images/artwork/cookies/gingerbreadmen2016.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/gingerbreadmen2016.jpg',
       desc: '<p>Made these cookie bouquets for teacher Christmas gifts.</p>',
       date: 'Dec 2016',
       content: [
@@ -290,6 +359,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: '', 
       coverImg: 'assets/images/artwork/cookies/nativity.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/nativity.jpg',
       desc: '<p></p>',
       date: '',
       content: [
@@ -301,6 +373,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: '', 
       coverImg: 'assets/images/artwork/cookies/ornamittonhouse.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/ornamittonhouse.jpg',
       desc: '<p></p>',
       date: 'Dec 2006',
       content: [
@@ -314,6 +389,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: 'Rainbow Dash, Pinkie Pie, Rarity, Apple Jack & Spitfire', 
       coverImg: 'assets/images/artwork/cookies/ponies.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/ponies.jpg',
       desc: '<p></p>',
       date: 'Jan 2017',
       content: [
@@ -328,6 +406,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: '', 
       coverImg: 'assets/images/artwork/cookies/scrollBird.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/scrollBird.jpg',
       desc: '<p></p>',
       date: '',
       content: [
@@ -340,6 +421,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: '', 
       coverImg: 'assets/images/artwork/cookies/seaCreatures.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/seaCreatures.jpg',
       desc: '<p></p>',
       date: '',
       content: [
@@ -352,6 +436,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: '', 
       coverImg: 'assets/images/artwork/cookies/sheep.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/sheep.jpg',
       desc: '<p></p>',
       date: 'Dec 2016',
       content: [
@@ -363,6 +450,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: '', 
       coverImg: 'assets/images/artwork/cookies/simpleFlowers.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/simpleFlowers.jpg',
       desc: '<p></p>',
       date: 'Feb 2017',
       content: [
@@ -375,6 +465,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: '', 
       coverImg: 'assets/images/artwork/cookies/snowmen.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/snowmen.jpg',
       desc: '<p></p>',
       date: '',
       content: [
@@ -386,6 +479,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: '', 
       coverImg: 'assets/images/artwork/cookies/tweetingBirds.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/tweetingBirds.jpg',
       desc: '<p></p>',
       date: 'June 2016',
       content: [
@@ -398,6 +494,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Cookies', 
       summary: '', 
       coverImg: 'assets/images/artwork/cookies/waterlily.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cookies/waterlily.jpg',
       desc: '<p></p>',
       date: 'Jan 2017',
       content: [
@@ -415,6 +514,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'A simple but pretty layer cake',
       coverImg: 'assets/images/appleblossoms.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/appleblossoms.jpg',
       desc: '',
       date: 'March 2004',
       content: [
@@ -427,6 +529,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'Star-covered cake for season\'s end celebration',
       coverImg: 'assets/images/artwork/cakes/Baseball_sides.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/Baseball_sides.jpg',
       desc: '',
       date: 'June 2005',
       content: [
@@ -439,6 +544,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'Sweet pink roses in a pink basket',
       coverImg: 'assets/images/artwork/cakes/basketofroses.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/basketofroses.jpg',
       desc: '',
       date: 'April 2004',
       content: [
@@ -451,6 +559,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'A Bavaria-themed anniversary cake',
       coverImg: 'assets/images/artwork/cakes/bavarianChapel.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/bavarianChapel.jpg',
       desc: '',
       date: 'Sep 2007',
       content: [
@@ -463,6 +574,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'Brightly colored cake with royal icing flowers and butterflies',
       coverImg: 'assets/images/artwork/cakes/blossombutterflies.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/blossombutterflies.jpg',
       desc: '',
       date: 'April 2008',
       content: [
@@ -477,6 +591,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'Chocolate through and through: cake, buttercream and candy scrolls',
       coverImg: 'assets/images/artwork/cakes/chocolatelace.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/chocolatelace.jpg',
       desc: '',
       date: 'Nov 2004',
       content: [
@@ -489,6 +606,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'Chocoate cake with a crunch!',
       coverImg: 'assets/images/artwork/cakes/maltedmilkballcake.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/maltedmilkballcake.jpg',
       desc: '',
       date: 'April 2005',
       content: [
@@ -501,6 +621,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'Royal icing flowers on a basic white cake',
       coverImg: 'assets/images/artwork/cakes/DaisiesMumsBasket.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/DaisiesMumsBasket.jpg',
       desc: '',
       date: 'Nov 2003',
       content: [
@@ -513,6 +636,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'Office celebration cake featuring Dilbert and Dogbert',
       coverImg: 'assets/images/artwork/cakes/dilbert2.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/dilbert2.jpg',
       desc: '',
       date: 'Aug 2006',
       content: [
@@ -525,6 +651,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'A very hungry caterpillar encircles a red apple',
       coverImg: 'assets/images/artwork/cakes/HungryCaterpillar.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/HungryCaterpillar.jpg',
       desc: '',
       date: 'July 2006',
       content: [
@@ -537,10 +666,13 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'A rubber-stamp inspired cake',
       coverImg: 'assets/images/artwork/cakes/kittycake.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/kittycake.jpg',
       desc: '<p>My daughter wanted a kitty cake for her birthday so I borrowed the design for the cake from a Penny Black rubber stamp.&nbsp;.</p>',
       date: 'May 2005',
       content: [
-        {img:'assets/images/artwork/cakes/kittytop.jpg', 
+        {img:'assets/images/artwork/cakes/kittytop.jpg',
          desc: ''},
          {img:'assets/images/artwork/cakes/kittycake.jpg', 
          desc: ''}
@@ -551,6 +683,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'A birthday cake for Pika lovers',
       coverImg: 'assets/images/artwork/cakes/pikachu.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/pikachu.jpg',
       desc: '',
       date: 'July 2004',
       content: [
@@ -563,6 +698,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'A Pokemon daycare cake',
       coverImg: 'assets/images/artwork/cakes/pokemoncake.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/pokemoncake.jpg',
       desc: '',
       date: 'July 2008',
       content: [
@@ -575,6 +713,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'A tower of starter Pokemon',
       coverImg: 'assets/images/artwork/cakes/pokemoncupcakes.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/pokemoncupcakes.jpg',
       desc: '',
       date: 'Aug 2007',
       content: [
@@ -587,6 +728,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'A large monkey cake and mini, take-home monkey cakes',
       coverImg: 'assets/images/artwork/cakes/monkeys.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/monkeys.jpg',
       desc: '',
       date: 'Aug 2006',
       content: [
@@ -599,6 +743,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'Fondant hearts, bows and flowers for a little girl\'s birthday',
       coverImg: 'assets/images/artwork/cakes/Melanie.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/Melanie.jpg',
       desc: '',
       date: 'Oct 2004',
       content: [
@@ -611,6 +758,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'A just-for-practice white, multi-tier cake',
       coverImg: 'assets/images/artwork/cakes/AngelsSing.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/AngelsSing.jpg',
       desc: '',
       date: 'July 2004',
       content: [
@@ -623,6 +773,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'A volleyball-theme cake with cookie players and candy stars',
       coverImg: 'assets/images/artwork/cakes/vballcake.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/vballcake.jpg',
       desc: '',
       date: 'Dec 2005',
       content: [
@@ -635,6 +788,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'Demonstrates buttercream icing smoothing and piping techniques',
       coverImg: 'assets/images/artwork/cakes/course1.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/course1.jpg',
       desc: '',
       date: 'June 2003',
       content: [
@@ -647,6 +803,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'A cake that features beginning royal icing flowers and figures',
       coverImg: 'assets/images/artwork/cakes/Course2c.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/Course2c.jpg',
       desc: '',
       date: 'July 2003',
       content: [
@@ -659,6 +818,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: 'The final project for the final cake decorating course',
       coverImg: 'assets/images/artwork/cakes/course3.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/course3.jpg',
       desc: '',
       date: 'March 2004',
       content: [
@@ -671,6 +833,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/dogcake.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/dogcake.jpg',
       desc: '',
       date: 'May 2004',
       content: [
@@ -683,6 +848,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/fondantcar.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/fondantcar.jpg',
       desc: '',
       date: 'Feb 2004',
       content: [
@@ -695,6 +863,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/fondantleaves.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/fondantleaves.jpg',
       desc: '',
       date: 'Jan 2004',
       content: [
@@ -707,6 +878,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/FondantTreasureBox.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/FondantTreasureBox.jpg',
       desc: '',
       date: 'April 2004',
       content: [
@@ -719,6 +893,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/ForCarol.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/ForCarol.jpg',
       desc: '',
       date: 'March 2004',
       content: [
@@ -731,6 +908,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/guitar.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/guitar.jpg',
       desc: '',
       date: 'Sep 2004',
       content: [
@@ -743,6 +923,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/Hheart.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/Hheart.jpg',
       desc: '',
       date: 'Oct 2004',
       content: [
@@ -755,6 +938,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/hotwheels.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/hotwheels.jpg',
       desc: '',
       date: '18 Dec 2012',
       content: [
@@ -767,6 +953,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/LaceExtension.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/LaceExtension.jpg',
       desc: '',
       date: 'Feb 2005',
       content: [
@@ -779,6 +968,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/sackboy1.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/sackboy1.jpg',
       desc: '',
       date: 'June 2009',
       content: [
@@ -791,6 +983,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/snowflakecake.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/snowflakecake.jpg',
       desc: '',
       date: 'Jan 2005',
       content: [
@@ -803,6 +998,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/soccerBall.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/soccerBall.jpg',
       desc: '',
       date: 'Jun 2005',
       content: [
@@ -815,6 +1013,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/spongebob.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/spongebob.jpg',
       desc: '',
       date: 'Aug 2004',
       content: [
@@ -827,6 +1028,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/thomas.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/thomas.jpg',
       desc: '',
       date: 'Aug 2003',
       content: [
@@ -839,6 +1043,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/minicake.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/minicake.jpg',
       desc: '',
       date: 'Dec 2006',
       content: [
@@ -851,6 +1058,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/pig.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/pig.jpg',
       desc: '',
       date: 'May 2004',
       content: [
@@ -863,6 +1073,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/allwhite.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/allwhite.jpg',
       desc: '',
       date: 'Oct 2008',
       content: [
@@ -875,6 +1088,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Decorated Cakes', 
       summary: '',
       coverImg: 'assets/images/artwork/cakes/rufflesAndSquiggles.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cakes/rufflesAndSquiggles.jpg',
       desc: '',
       date: 'March 2004',
       content: [
@@ -889,6 +1105,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: 'Penny Black three-sheep stamp, divided', 
       coverImg: 'assets/images/artwork/cards/sheep.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/sheep.jpg',
       desc: '',
       date: '2011',
       content: [
@@ -901,6 +1120,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/dragonfly2.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/dragonfly2.jpg',
       desc: '',
       date: '',
       content: [
@@ -913,6 +1135,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/fairies.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/fairies.jpg',
       desc: '',
       date: '',
       content: [
@@ -925,6 +1150,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/fall.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/fall.jpg',
       desc: '',
       date: '',
       content: [
@@ -937,6 +1165,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/fatcatbday.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/fatcatbday.jpg',
       desc: '',
       date: '',
       content: [
@@ -949,6 +1180,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/flower.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/flower.jpg',
       desc: '',
       date: '',
       content: [
@@ -961,6 +1195,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/flowerjar.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/flowerjar.jpg',
       desc: '',
       date: '',
       content: [
@@ -973,6 +1210,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/flowerpot.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/flowerpot.jpg',
       desc: '',
       date: '',
       content: [
@@ -985,6 +1225,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/flowerpots.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/flowerpots.jpg',
       desc: '',
       date: '',
       content: [
@@ -997,6 +1240,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/flowers.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/flowers.jpg',
       desc: '',
       date: '',
       content: [
@@ -1009,6 +1255,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/wags.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/wags.jpg',
       desc: '',
       date: '',
       content: [
@@ -1021,6 +1270,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/flowersforyou.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/flowersforyou.jpg',
       desc: '',
       date: '',
       content: [
@@ -1033,6 +1285,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/fruit.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/fruit.jpg',
       desc: '',
       date: '',
       content: [
@@ -1045,6 +1300,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/fruitjars.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/fruitjars.jpg',
       desc: '',
       date: '',
       content: [
@@ -1057,6 +1315,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/garden.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/garden.jpg',
       desc: '',
       date: '',
       content: [
@@ -1069,6 +1330,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/getwellcupnoodles.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/getwellcupnoodles.jpg',
       desc: '',
       date: '',
       content: [
@@ -1081,6 +1345,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/gingerbread.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/gingerbread.jpg',
       desc: '',
       date: '',
       content: [
@@ -1093,6 +1360,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/grapecelebrate.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/grapecelebrate.jpg',
       desc: '',
       date: '',
       content: [
@@ -1105,6 +1375,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/grapes.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/grapes.jpg',
       desc: '',
       date: '',
       content: [
@@ -1117,6 +1390,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/happiness.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/happiness.jpg',
       desc: '',
       date: '',
       content: [
@@ -1129,6 +1405,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/harvestbasket.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/harvestbasket.jpg',
       desc: '',
       date: '',
       content: [
@@ -1141,6 +1420,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/heartkey.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/heartkey.jpg',
       desc: '',
       date: '',
       content: [
@@ -1153,6 +1435,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/hedgehogflowers.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/hedgehogflowers.jpg',
       desc: '',
       date: '',
       content: [
@@ -1165,6 +1450,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/herbs.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/herbs.jpg',
       desc: '',
       date: '',
       content: [
@@ -1177,6 +1465,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/horses.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/horses.jpg',
       desc: '',
       date: '',
       content: [
@@ -1189,6 +1480,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/howdoilovethee.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/howdoilovethee.jpg',
       desc: '',
       date: '',
       content: [
@@ -1201,6 +1495,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/instruments.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/instruments.jpg',
       desc: '',
       date: '',
       content: [
@@ -1213,6 +1510,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/jollyrancherpop.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/jollyrancherpop.jpg',
       desc: '',
       date: '',
       content: [
@@ -1225,6 +1525,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/keytomyheart.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/keytomyheart.jpg',
       desc: '',
       date: '',
       content: [
@@ -1237,6 +1540,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/kiddiepool.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/kiddiepool.jpg',
       desc: '',
       date: '',
       content: [
@@ -1249,6 +1555,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/kidsonsled.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/kidsonsled.jpg',
       desc: '',
       date: '',
       content: [
@@ -1261,6 +1570,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/leafskeletons.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/leafskeletons.jpg',
       desc: '',
       date: '',
       content: [
@@ -1273,6 +1585,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/leavesinbrown.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/leavesinbrown.jpg',
       desc: '',
       date: '',
       content: [
@@ -1285,6 +1600,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/leavesingreen.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/leavesingreen.jpg',
       desc: '',
       date: '',
       content: [
@@ -1297,6 +1615,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/liberty.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/liberty.jpg',
       desc: '',
       date: '',
       content: [
@@ -1309,6 +1630,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/bunnies.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/bunnies.jpg',
       desc: '',
       date: '',
       content: [
@@ -1321,6 +1645,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/moose.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/moose.jpg',
       desc: '',
       date: '',
       content: [
@@ -1333,6 +1660,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/mosiacrose.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/mosiacrose.jpg',
       desc: '',
       date: '',
       content: [
@@ -1345,6 +1675,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/moths.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/moths.jpg',
       desc: '',
       date: '',
       content: [
@@ -1357,6 +1690,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/nativity.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/nativity.jpg',
       desc: '',
       date: '',
       content: [
@@ -1369,6 +1705,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/parrot.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/parrot.jpg',
       desc: '',
       date: '',
       content: [
@@ -1381,6 +1720,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/pbsewing.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/pbsewing.jpg',
       desc: '',
       date: '',
       content: [
@@ -1393,6 +1735,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/pears.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/pears.jpg',
       desc: '',
       date: '',
       content: [
@@ -1405,6 +1750,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/penguin.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/penguin.jpg',
       desc: '',
       date: '',
       content: [
@@ -1417,6 +1765,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/chalkflower.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/chalkflower.jpg',
       desc: '',
       date: '',
       content: [
@@ -1429,6 +1780,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/chillofwinter.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/chillofwinter.jpg',
       desc: '',
       date: '',
       content: [
@@ -1441,6 +1795,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/calalily.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/calalily.jpg',
       desc: '',
       date: '',
       content: [
@@ -1453,6 +1810,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/butterlythanks.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/butterlythanks.jpg',
       desc: '',
       date: '',
       content: [
@@ -1465,6 +1825,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/butterflyladybug.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/butterflyladybug.jpg',
       desc: '',
       date: '',
       content: [
@@ -1477,6 +1840,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/butterfly.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/butterfly.jpg',
       desc: '',
       date: '',
       content: [
@@ -1489,6 +1855,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/butterfliesswirls.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/butterfliesswirls.jpg',
       desc: '',
       date: '',
       content: [
@@ -1501,6 +1870,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/bitohoney.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/bitohoney.jpg',
       desc: '',
       date: '',
       content: [
@@ -1513,6 +1885,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/calalillies.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/calalillies.jpg',
       desc: '',
       date: '',
       content: [
@@ -1525,6 +1900,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/pixiestix.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/pixiestix.jpg',
       desc: '',
       date: '',
       content: [
@@ -1537,6 +1915,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/pmgirlgoose.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/pmgirlgoose.jpg',
       desc: '',
       date: '',
       content: [
@@ -1549,6 +1930,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/pooh.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/pooh.jpg',
       desc: '',
       date: '',
       content: [
@@ -1561,6 +1945,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/purpledaisy.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/purpledaisy.jpg',
       desc: '',
       date: '',
       content: [
@@ -1573,6 +1960,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/bird.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/bird.jpg',
       desc: '',
       date: '',
       content: [
@@ -1585,6 +1975,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/birdhouses.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/birdhouses.jpg',
       desc: '',
       date: '',
       content: [
@@ -1597,6 +1990,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/birdnest.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/birdnest.jpg',
       desc: '',
       date: '',
       content: [
@@ -1609,6 +2005,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/rooster.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/rooster.jpg',
       desc: '',
       date: '',
       content: [
@@ -1621,6 +2020,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/daisies.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/daisies.jpg',
       desc: '',
       date: '',
       content: [
@@ -1633,6 +2035,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/cocoamug.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/cocoamug.jpg',
       desc: '',
       date: '',
       content: [
@@ -1645,6 +2050,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/beeday1.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/beeday1.jpg',
       desc: '',
       date: '',
       content: [
@@ -1657,6 +2065,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/bigben.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/bigben.jpg',
       desc: '',
       date: '',
       content: [
@@ -1669,6 +2080,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/f1car.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/f1car.jpg',
       desc: '',
       date: '',
       content: [
@@ -1681,6 +2095,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/fallswag.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/fallswag.jpg',
       desc: '',
       date: '',
       content: [
@@ -1693,6 +2110,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/falltree.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/falltree.jpg',
       desc: '',
       date: '',
       content: [
@@ -1705,6 +2125,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/fan.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/fan.jpg',
       desc: '',
       date: '',
       content: [
@@ -1717,6 +2140,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/rosevine.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/rosevine.jpg',
       desc: '',
       date: '',
       content: [
@@ -1729,6 +2155,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/scarecrow.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/scarecrow.jpg',
       desc: '',
       date: '',
       content: [
@@ -1741,6 +2170,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/scarecrowivy.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/scarecrowivy.jpg',
       desc: '',
       date: '',
       content: [
@@ -1753,6 +2185,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/backofkitty.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/backofkitty.jpg',
       desc: '',
       date: '',
       content: [
@@ -1765,6 +2200,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/barnyard.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/barnyard.jpg',
       desc: '',
       date: '',
       content: [
@@ -1777,6 +2215,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/balletteddy.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/balletteddy.jpg',
       desc: '',
       date: '',
       content: [
@@ -1789,6 +2230,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/bearpocket.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/bearpocket.jpg',
       desc: '',
       date: '',
       content: [
@@ -1801,6 +2245,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/schooner.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/schooner.jpg',
       desc: '',
       date: '',
       content: [
@@ -1813,6 +2260,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/ship.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/ship.jpg',
       desc: '',
       date: '',
       content: [
@@ -1825,6 +2275,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/singlerose.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/singlerose.jpg',
       desc: '',
       date: '',
       content: [
@@ -1837,6 +2290,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/appleofmyeye.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/appleofmyeye.jpg',
       desc: '',
       date: '',
       content: [
@@ -1849,6 +2305,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/asiancranes.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/asiancranes.jpg',
       desc: '',
       date: '',
       content: [
@@ -1861,6 +2320,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/babyfeet.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/babyfeet.jpg',
       desc: '',
       date: '',
       content: [
@@ -1873,6 +2335,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/smiley1.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/smiley1.jpg',
       desc: '',
       date: '',
       content: [
@@ -1886,6 +2351,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/acornsleaves.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/acornsleaves.jpg',
       desc: '',
       date: '',
       content: [
@@ -1898,6 +2366,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/dragonflies.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/dragonflies.jpg',
       desc: '',
       date: '',
       content: [
@@ -1910,6 +2381,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/dinosaur.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/dinosaur.jpg',
       desc: '',
       date: '',
       content: [
@@ -1922,6 +2396,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/applecidercup.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/applecidercup.jpg',
       desc: '',
       date: '',
       content: [
@@ -1934,6 +2411,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/apple.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/apple.jpg',
       desc: '',
       date: '',
       content: [
@@ -1946,6 +2426,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/snailmouse.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/snailmouse.jpg',
       desc: '',
       date: '',
       content: [
@@ -1958,6 +2441,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/snails.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/snails.jpg',
       desc: '',
       date: '',
       content: [
@@ -1970,6 +2456,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/snow.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/snow.jpg',
       desc: '',
       date: '',
       content: [
@@ -1982,6 +2471,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/snowangel.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/snowangel.jpg',
       desc: '',
       date: '',
       content: [
@@ -1994,6 +2486,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/snowmanfamily.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/snowmanfamily.jpg',
       desc: '',
       date: '',
       content: [
@@ -2006,6 +2501,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/snowmankid.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/snowmankid.jpg',
       desc: '',
       date: '',
       content: [
@@ -2018,6 +2516,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/snowtree.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/snowtree.jpg',
       desc: '',
       date: '',
       content: [
@@ -2030,6 +2531,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/space.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/space.jpg',
       desc: '',
       date: '',
       content: [
@@ -2044,6 +2548,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/specialtreat.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/specialtreat.jpg',
       desc: '',
       date: '',
       content: [
@@ -2056,6 +2563,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/spiralflower.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/spiralflower.jpg',
       desc: '',
       date: '',
       content: [
@@ -2068,6 +2578,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/springflowers.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/springflowers.jpg',
       desc: '',
       date: '',
       content: [
@@ -2080,6 +2593,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/stitchedflower.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/stitchedflower.jpg',
       desc: '',
       date: '',
       content: [
@@ -2092,6 +2608,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/stitchedsheep.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/stitchedsheep.jpg',
       desc: '',
       date: '',
       content: [
@@ -2104,6 +2623,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/strungcorners.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/strungcorners.jpg',
       desc: '',
       date: '',
       content: [
@@ -2116,6 +2638,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/tackyemboss.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/tackyemboss.jpg',
       desc: '',
       date: '',
       content: [
@@ -2128,6 +2653,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/teapots.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/teapots.jpg',
       desc: '',
       date: '',
       content: [
@@ -2140,6 +2668,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/thanks.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/thanks.jpg',
       desc: '',
       date: '',
       content: [
@@ -2152,6 +2683,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/thanksIN.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/thanksIN.jpg',
       desc: '',
       date: '',
       content: [
@@ -2164,6 +2698,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/thanksLatte.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/thanksLatte.jpg',
       desc: '',
       date: '',
       content: [
@@ -2176,6 +2713,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/velvet.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/velvet.jpg',
       desc: '',
       date: '',
       content: [
@@ -2188,6 +2728,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/angel.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/angel.jpg',
       desc: '',
       date: '',
       content: [
@@ -2200,6 +2743,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/singleflowerpot.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/singleflowerpot.jpg',
       desc: '',
       date: '',
       content: [
@@ -2212,6 +2758,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/3Dpainted.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/3Dpainted.jpg',
       desc: '',
       date: '',
       content: [
@@ -2224,6 +2773,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/littlepenguin.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/littlepenguin.jpg',
       desc: '',
       date: '',
       content: [
@@ -2236,6 +2788,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Handmade Cards', 
       summary: '', 
       coverImg: 'assets/images/artwork/cards/hanginthere1.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/cards/hanginthere1.jpg',
       desc: '',
       date: '',
       content: [
@@ -2250,6 +2805,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/candlesticks/candlesticks.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/candlesticks/candlesticks.jpg',
       desc: '',
       date: '2013',
       content: [
@@ -2262,6 +2820,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/appleblossom/appblossm21.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/appleblossom/appblossm21.jpg',
       desc: '<p>These instructions are for the auction project.</p><p>Materials:&nbsp;</p><p style="margin-bottom: 0.0001pt;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">1 - 1" ball for inner petals<br /> 1 - 1/2" x 2" outer vein strip<br /> 1 - 1/2" x 1" inner vein strip<br /> 1 - 9" x 1" flat Skinner blend for outer petals<br /> 1 - 4" x 1" flat outline strip<br /> 1 - 3/8" ball for center</span></p>',
       date: '19 Jan 2013',
       content: [
@@ -2312,6 +2873,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/citrus/citrus9.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/citrus/citrus9.jpg',
       desc: '<p>These instructions are for the auction project. &nbsp;This cane idea came from&nbsp;<a href="http://www.polymerclaycentral.com/candy_citrus.html" target="_blank">Candy\'s Citrus Cane</a>.</p><p>Materials:</p><p>1 - 1.5" diameter segment-colored ball<br />8 - 2" x 1.5" white flat strips (#3)<br />1 - 1/2" white ball for center<br />1 - 4" x 1.5" white flat strip (#2)<br />1 - 4.25" x 1.5" segment-colored flat strip (#3)<br />1 - 5" x 1.5" rind-colored flat strip (#6)</p>',
       date: '6 Jan 2013',
       content: [
@@ -2338,6 +2902,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/daisy/daisy9.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/daisy/daisy9.jpg',
       desc: '<p>These instructions are for the auction project.</p><p>Materials:</p><p>1 - 9" x 2.5" Skinner blend (petals)<br />1 - 5" x 3" flat strip for petal outline<br />1 - 1/2" ball for flower center</p>',
       date: '19 Jan 2013',
       content: [
@@ -2364,6 +2931,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/eyeleaf/eyeleaf16.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/eyeleaf/eyeleaf16.jpg',
       desc: '<p>These instructions are for the auction project.</p><p>Materials:</p><p>1 - 3" x 9" Skinner Blend (#5)<br />1 - 6" x 1" vein strip<br />1 - 6" x 1" border strip</p>" x 1" flat Skinner blend for outer petals<br /> 1 - 4" x 1" flat outline strip<br /> 1 - 3/8" ball for center</span></p>',
       date: '19 Jan 2013',
       content: [
@@ -2398,6 +2968,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/rounded/rounded12.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/rounded/rounded12.jpg',
       desc: '<p>These instructions are for the auction project.</p><p>Materials:</p><p>1 - 6" x 3" Skinner blend strip (#7)<br />1 - 4.5" x 3" flat outline strip (#4)<br />1 - 3/8" x 3" flat vein strip (#4)<br />1 - 1/2" ball for flower center</p>',
       date: '7 Jan 2013',
       content: [
@@ -2430,6 +3003,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/triangle5/tri5-9.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/triangle5/tri5-9.jpg',
       desc: '<p>These instructions are for the auction project.</p><p>Materials (Clay):</p><p>1 - 1.5" ball for petals<br />5 - 1.5" x 1.25" flat outline strips (to outline petals)<br />1 - 1.25" ball for filler between petals<br />1 - 3/8" ball for flower center</p>',
       date: '8 Jan 2013',
       content: [
@@ -2458,6 +3034,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/heartleaf/heart12.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/heartleaf/heart12.jpg',
       desc: '<p>These instructions are for the auction project.</p><p>Materials:</p><p>1 - 9" x 3" Skinner blend strip<br />1 - 4" x 3" flat outline strip',
       date: '19 Jan 2013',
       content: [
@@ -2492,6 +3071,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/hydrangea/hydrangea10.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/hydrangea/hydrangea10.jpg',
       desc: '<p>These instructions are for the auction project.</p><p>Materials:</p><p>1 - 8" x 3" 80/20 blended strip (#7)<br />3 - 1/4" x 3" flat vein strip (#3)<br />1 - 4" x 3" flat outline strip (#4)<br />1 - 3/8" ball in flower center color</p>',
       date: '7 Jan 2013',
       content: [
@@ -2522,6 +3104,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/ladybug/ladybug9.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/ladybug/ladybug9.jpg',
       desc: '<p><p>These instructions are for the auction project.</p><p>Materials:</p><p>1 - 1" ball of body color<br />3 - 3/8" black balls for dots<br />4 - 1/2" balls in body color<br />1 - 6" x 2.5" flat strip in body color (#7)<br />1 - 1.5" x 1.25" black flat strip for wing divider (#6)<br />1 - 3/4" black ball for the head</p>',
       date: '7 Jan 2013',
       content: [
@@ -2550,6 +3135,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/rose/rose16.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/rose/rose16.jpg',
       desc: '<p>These instructions are for the auction project.</p><p>Materials:</p><p>1 - 8" x 3" Skinned blend strip (#7)<br />1 - 5" x 3" flat outline strip (#6)</p>- 4" x 1" flat outline strip<br /> 1 - 3/8" ball for center</span></p>',
       date: '19 Jan 2013',
       content: [
@@ -2588,6 +3176,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/shady/shady11.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/shady/shady11.jpg',
       desc: '<p>These instructions are for the auction project. &nbsp;The idea for the cane originated from&nbsp;<a href="http://www.polymerclaycentral.com/shady_flower.html" target="_blank">Naama Zamir</a>.</p><p>Materials:</p><p>1 - 12" x 3" Skinner blend strip (#4)<br />1 - 4" x 1.5" flat outline strip (#4)<br />1 - 3/8" ball for flower center</p>',
       date: '7 Jan 2013',
       content: [
@@ -2620,6 +3211,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/striped6tri/striped6tri7.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/striped6tri/striped6tri7.jpg',
       desc: '<p>These instructions are for the auction project.</p><p>Materials (Clay):</p><p>1 - 6" x 2.5" flat strip for inner stripes (#5)<br />1 - 6.75" x 2.5" flat strip for outer stripes (#5)<br />6 - 2" x 1" flat strips for petal outlines (#5)<br />1 - 3/8" ball for center</p>',
       date: '7 Jan 2013',
       content: [
@@ -2644,6 +3238,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/spiral/spiral5.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/spiral/spiral5.jpg',
       desc: '<p>These instructions are for the auction project.</p><p>Materials:</p><p>1 - 7" x 1.5" black flat strip (#5)<br />1 - 6" x 1.5" solid colored strip (#5)<br />1 - 6" x 1.5" Skinner blend strip (#6)<br />1 - 1/2" ball for center</p>',
       date: '7 Jan 2013',
       content: [
@@ -2664,6 +3261,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/striped5petal/striped9.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/striped5petal/striped9.jpg',
       desc: '<p>These instructions are for the auction project.</p><p>Materials:</p><p>1 - 9" x 2.5" Skinner blend strip (petals)<br />1 - 5" x 3" flat strip for petal outline<br />1 - 3/8" ball for flower center</p>',
       date: '7 Jan 2013',
       content: [
@@ -2692,6 +3292,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/striped6tear/striped6tear7.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/striped6tear/striped6tear7.jpg',
       desc: '<p>These instructions are for the auction project.</p><p>Materials (Clay):</p><p>1 - 6" x 2.5" flat strip for inner stripes (#5)<br />1 - 6.75" x 2.5" flat strip for outer stripes (#5)<br />6 - 2" x 1" flat strips for petal outlines (#5)<br />1 - 1.5" x 1" Skinner blend strip for center (#4)</p>',
       date: '78 Jan 2013',
       content: [
@@ -2716,6 +3319,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/butterfly/butterfly8.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/butterfly/butterfly8.jpg',
       desc: '<p>These instructions are for the class auction project.</p><p>Materials:</p><p>4 - 5.5" x 1.5" matching Skinner blend strips (#4)<br />1 - 3/4" x 1.5" strip for the antennae (in body color)</p>',
       date: '19 Jan 2013',
       content: [
@@ -2742,6 +3348,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/teardropleaf/teardropleaf11.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/teardropleaf/teardropleaf11.jpg',
       desc: '<p>These instructions are for the auction project.</p><p>Materials (Clay):</p><p>1 - 8" x 2" Skinner blend strip (#7)<br />3 - 1.5" x 2" flat vein strips (#6)<br />1 - 5" x 2" flat outline strip (#6)</p>',
       date: '7 Jan 2013',
       content: [
@@ -2774,6 +3383,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/vases/vases1.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/vases/vases1.jpg',
       desc: "<p>My son's fifth grade class had to provide a project for the school's annual auction. &nbsp;As room parent, I suggested that we make a polymer-clay covered vase, which was an idea I'd done with my daughter's fifth grade class&nbsp;at a different school five years earlier. &nbsp;That earlier vase had sold very well and the kids enjoyed making it -- though it was a lot of work. &nbsp;Fortunately, I'd saved a lot of the cane templates I'd made up from that first experience and was able to reuse them as a starting point for my son's class. &nbsp;For my daughter's school, each class was responsible for its own project but at my son's school, the project is made at a grade level. &nbsp;There were two classes in fifth grade, so working together with the other class' room parent, we made two vases. &nbsp;Here are the results:</p>",
       date: '15 Oct 2012',
       content: [
@@ -2788,6 +3400,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/pillarHolder/pillarHolder1.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/pillarHolder/pillarHolder1.jpg',
       desc: "<p></p>",
       date: '9 Jun 2016',
       content: [
@@ -2802,6 +3417,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Polymer Clay', 
       summary: '',
       coverImg: 'assets/images/artwork/clay/dessertBowl/dessertBowl1.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/clay/dessertBowl/dessertBowl1.jpg',
       desc: "<p></p>",
       date: 'March 2016',
       content: [
@@ -2820,6 +3438,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Miscellaneous', 
       summary: 'Submission for Wilton Competition', 
       coverImg: 'assets/images/artwork/misc/gingerbreadhouse.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/misc/gingerbreadhouse.jpg',
       desc: '',
       date: 'Dec 2006',
       content: [
@@ -2832,6 +3453,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Miscellaneous', 
       summary: 'A simple gift', 
       coverImg: 'assets/images/artwork/misc/notebook.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/misc/notebook.jpg',
       desc: '<p>I livened up a plain cardboard notebook by adding a cover made from a collage of stamped images (from Stampin\ Up.)</p>',
       date: '2011',
       content: [
@@ -2844,6 +3468,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Miscellaneous', 
       summary: 'A Christmas gift for a teacher', 
       coverImg: 'assets/images/artwork/misc/ornaments.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/misc/ornaments.jpg',
       desc: '<p>I decorated this glass Christmas ornament for a teacher\'s gift.  It is stamped with four tiny angels in permanent ink.  I colored the angels using paint pens then wrote \'Hark! the herald angels sing, "Glory to the newborn King"!\' </p>',
       date: 'Dec 2002',
       content: [
@@ -2856,6 +3483,9 @@ export const ARTWORK:[Art[]] = [
       category: 'Miscellaneous', 
       summary: 'Stamped and embossed notecards in a holder', 
       coverImg: 'assets/images/artwork/misc/fruitcards.jpg',
+      altimg: '',
+      srcset: 'assets/images/placeholder.png',
+      SRCSET: 'assets/images/artwork/misc/fruitcards.jpg',
       desc: '<p></p>',
       date: '6 Nov 2012',
       content: [
