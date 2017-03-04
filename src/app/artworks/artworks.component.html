@@ -1,5 +1,5 @@
 <a id="top" class="anchor"></a>
-<div class="container" (window:scroll)="processScroll()">  
+<div class="container" (window:scroll)="onScroll()">  
   <div class="col-xs-12">
     <h2>My Artworks</h2>
     <ul class="goto">
@@ -11,10 +11,10 @@
         <hr>
         <a id="{{cat.anchorId}}" class="anchor"><h3>{{cat.name}}</h3></a>
 
-        <div *ngFor="let artwork of artworks[i]" (click)="goToDetail(artwork)" [class.selected]="artwork === selectedArtwork" class="col-xs-6 col-sm-4 col-md-3 project">
+        <div *ngFor="let artwork of artworks[i]; let j = index" [class.selected]="artwork === selectedArtwork" class="col-xs-6 col-sm-4 col-md-3 project">
           <div class="project-wrapper">
             <div class="panel project-panel">
-              <img [src]="artwork.coverImg" class="img-responsive img-rounded" alt="artwork.altimg" [srcset]="artwork.srcset">
+              <img [src]="artwork.coverImg" class="img-responsive img-rounded" alt="artwork.altimg" [srcset]="artwork.srcset" (click)="lazyLoad(i,j)" (load)="onLoad(artwork,$event)" [id]="artwork.id">
               <h4>{{artwork.title}}</h4>
               <span class="text-muted">{{artwork.summary}}</span>
             </div>
