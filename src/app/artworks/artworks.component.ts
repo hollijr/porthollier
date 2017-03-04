@@ -37,6 +37,7 @@ export class ArtworksComponent implements OnInit, AfterViewChecked {
       console.log("reversing array");
       this.images.reverse();
       this.arrayIsReversed = true;
+      
     }
   }
 
