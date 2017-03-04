@@ -1,6 +1,6 @@
 .selected {
-  background-color: #CFD8DC !important;
-  color: white;
+  border-color: #b4e19e;
+  color: #419427;
 }
 .goto {
   padding-left: 0;

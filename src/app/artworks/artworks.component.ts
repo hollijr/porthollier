@@ -15,24 +15,30 @@ export class ArtworksComponent implements OnInit {
 
   ngOnInit():void {
     this.getArtworks(); 
+
+    // subscribe to params that are returned from artwork-details
+    // so you can highlight the last selected item
+    this.route.params.forEach((params:Params) => {
+      // + converts the 'id' string to a number
+      let id = +params['artid'];
+      this.selectedArtwork = id;
+      console.log("returned id of " + id + ", selected " + this.selectedArtwork);
+    });
     
+    // subscribe to fragment observable to redirect on page
     this.route.fragment.forEach((frag: string) => {
       this.fragment = frag;
-      console.log(frag);
       if (frag) {
-        console.log('has frag');
-          // you can use DomAdapter
           const element = document.querySelector("#" + frag);
           if (element) { 
-           element.scrollIntoView(true);  // experimental method
-            console.log('done');
+            element.scrollIntoView(true);  // experimental method
+            console.log('scrolled to ' + frag + ", element: " + element);
           }
         }
     }); 
     
     this.images = new Array();
     this.loaded = new Array();
-    this.arrayIsReversed = false;
   }
 
   // this constructor adds a private property that is of type projectService to the 
@@ -45,17 +51,24 @@ export class ArtworksComponent implements OnInit {
 
   categories:Category[];
   selectedCategory:Category;
-  selectedArtwork:Art;
+  selectedArtwork:number;
   artworks:[Art[]];
   innerWidth:number = window.innerWidth;
   fragment:string;
   images;
-  loaded:boolean[] = new Array();
+  loaded:Art[] = new Array();
   arrayIsReversed:boolean;
   imageCt:number;
 
   onSelect(artwork:Art): void {
-    this.selectedArtwork = artwork;
+    this.selectedArtwork = artwork.id;
+  }
+
+  isSelected(id:number) {
+    if (id === this.selectedArtwork) {
+      console.log("selected: " + id);
+    }
+    return id === this.selectedArtwork;
   }
 
   getArtworks():void {
@@ -82,7 +95,9 @@ export class ArtworksComponent implements OnInit {
 
   goToDetail(artwork:Art):void {
     this.onSelect(artwork);
-    this.router .navigate(['/artworks', this.selectedArtwork.id]);
+    // this.selectedArtwork.id is a required parameter for the project-detail component
+    // so include it after the url in the 'link parameters array':
+    this.router .navigate(['/artworks', this.selectedArtwork]);
   }
 
   // stores artwork & DOMimg element in images array -- only want to store it in the array once,
@@ -104,7 +119,7 @@ export class ArtworksComponent implements OnInit {
     // only want to do this once
     if (!(artwork.id in this.loaded)) {
 
-      this.loaded[artwork.id] = false;
+      this.loaded[artwork.id] = artwork;
      
       // if it's in the viewport, go ahead and load it
       if (this.isElementInViewport(event.target)) {

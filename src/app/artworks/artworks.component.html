@@ -11,9 +11,9 @@
         <hr>
         <a id="{{cat.anchorId}}" class="anchor"><h3>{{cat.name}}</h3></a>
 
-        <div *ngFor="let artwork of artworks[i]" [class.selected]="artwork === selectedArtwork" (click)="goToDetail(artwork)" class="col-xs-6 col-sm-4 col-md-3 project">
+        <div *ngFor="let artwork of artworks[i]" (click)="goToDetail(artwork)" class="col-xs-6 col-sm-4 col-md-3 project">
           <div class="project-wrapper">
-            <div class="panel project-panel">
+            <div class="panel project-panel" [class.selected]="isSelected(artwork.id)">
               <img [src]="artwork.coverImg" class="img-responsive img-rounded" alt="artwork.altimg" [srcset]="artwork.srcset" (load)="onLoad(artwork,$event)" [id]="artwork.id">
               <h4>{{artwork.title}}</h4>
               <span class="text-muted">{{artwork.summary}}</span>

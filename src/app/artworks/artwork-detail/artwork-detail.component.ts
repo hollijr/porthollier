@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Params } from '@angular/router';
+import { Router, ActivatedRoute, Params } from '@angular/router';
 import { ArtworkService } from '../../services/artwork.service';
 import { Art } from '../art';
 
@@ -12,12 +12,14 @@ export class ArtworkDetailComponent implements OnInit {
 
   constructor(
     private artworkService:ArtworkService, 
+    private router:Router,
     private route:ActivatedRoute) {
 
   }
 
   ngOnInit():void {
     this.route.params.forEach((params:Params) => {
+      // + converts the 'id' string to a number
       let id = +params['id'];
       this.artworkService.getArtwork(id)
       .then(artwork => this.artwork = artwork);
@@ -27,7 +29,9 @@ export class ArtworkDetailComponent implements OnInit {
   artwork:Art;
 
   goBack():void {
-    window.history.back();
+    //window.history.back();
+    let id = this.artwork ? this.artwork.id : null;
+    this.router.navigate(['/artworks', { artid: id }]);
   }
 
 }
