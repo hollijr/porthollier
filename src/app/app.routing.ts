@@ -10,6 +10,7 @@ import { ArtworkDetailComponent } from './artworks/artwork-detail/artwork-detail
 import { AboutComponent } from './about/about.component';
 import { GaugeComponent } from './projects/demo/gauge/gauge.component';
 import { VisalgoComponent } from './projects/demo/visalgo/visalgo.component';
+import { PageNotFoundComponent } from  './page-not-found.component';
 
 const appRoutes:Routes = [
   {
@@ -43,6 +44,11 @@ const appRoutes:Routes = [
     path: '',
     redirectTo: '/home',
     pathMatch: 'full'
+  },
+  {
+    // page not found
+    path: '**',
+    component: PageNotFoundComponent
   }
 ];
 

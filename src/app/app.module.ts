@@ -23,6 +23,7 @@ import { ArrayifyPipe } from './common/arrayify.pipe';
 import { VisalgoComponent } from './projects/demo/visalgo/visalgo.component';
 import { PythonSamplesComponent } from './projects/demo/python-samples/python-samples.component';
 import { ScrollDirective } from './common/scroll.directive';
+import { PageNotFoundComponent } from './page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { ScrollDirective } from './common/scroll.directive';
     ArrayifyPipe,
     VisalgoComponent,
     PythonSamplesComponent,
-    ScrollDirective
+    ScrollDirective,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

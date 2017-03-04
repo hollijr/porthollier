@@ -1,20 +1,20 @@
 <a id="top" class="anchor"></a>
-<div class="container" (window:scroll)="checkLazyLoad()" (window:resize)="checkLazyLoad()">  
+<div class="container" (window:scroll)="checkLazyLoad()" (window:resize)="checkLazyLoad()" >
   <div class="col-xs-12">
     <h2>My Artworks</h2>
     <ul class="goto">
-      <!--<li *ngFor="let cat of categories" (click)="goToCategory(cat)">{{cat.name}}</li>-->
-      <li *ngFor="let cat of categories" class="page-nav"><a [routerLink]="['/artworks']" fragment="{{cat.anchorId}}">{{cat.name}}</a></li>
+      <li *ngFor="let cat of categories"><a (click)="goToCategory(cat)">{{cat.name}}</a></li>
+      <!--<li *ngFor="let cat of categories" class="page-nav"><a [routerLink]="['/artworks']" fragment="{{cat.anchorId}}">{{cat.name}}</a></li>-->
     </ul>
     <div class="projects">
       <div *ngFor="let cat of categories; let i = index" class="row grid grid-pad">
         <hr>
         <a id="{{cat.anchorId}}" class="anchor"><h3>{{cat.name}}</h3></a>
 
-        <div *ngFor="let artwork of artworks[i]; let j = index" [class.selected]="artwork === selectedArtwork" class="col-xs-6 col-sm-4 col-md-3 project">
+        <div *ngFor="let artwork of artworks[i]" [class.selected]="artwork === selectedArtwork" (click)="goToDetail(artwork)" class="col-xs-6 col-sm-4 col-md-3 project">
           <div class="project-wrapper">
             <div class="panel project-panel">
-              <img [src]="artwork.coverImg" class="img-responsive img-rounded" alt="artwork.altimg" [srcset]="artwork.srcset" (click)="lazyLoad(i,j)" (load)="onLoad(artwork,$event)" [id]="artwork.id">
+              <img [src]="artwork.coverImg" class="img-responsive img-rounded" alt="artwork.altimg" [srcset]="artwork.srcset" (load)="onLoad(artwork,$event)" [id]="artwork.id">
               <h4>{{artwork.title}}</h4>
               <span class="text-muted">{{artwork.summary}}</span>
             </div>
