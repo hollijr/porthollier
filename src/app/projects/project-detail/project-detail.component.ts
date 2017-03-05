@@ -37,6 +37,7 @@ export class ProjectDetailComponent implements OnInit {
   }
 
   trustAsHtml() {
-    return this.sanitizer.bypassSecurityTrustHtml(this.project.demo);
+    let demo = this.project.demo.toString();
+    return this.sanitizer.bypassSecurityTrustHtml(demo);
   }
 }

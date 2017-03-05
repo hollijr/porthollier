@@ -20,7 +20,7 @@
     <div *ngIf="project.demoLink" class="space-bottom">
       <a [href]="project.demoLink" target="_blank">Go To Project</a>
     </div>
-    <div *ngIf="project.demo">
+    <div *ngIf="project.demo.length > 0">
       <div [innerHTML]="trustAsHtml()" class="demo-content"></div>
     </div>
     <div *ngIf="project.component">
