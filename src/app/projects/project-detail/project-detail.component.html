@@ -1,4 +1,4 @@
-<div *ngIf="project" class="container">
+<div *ngIf="project" class="container" (window:scroll)="isAtTop()" (window:resize)="isAtTop()" (load)="isAtTop()">
   <div class="row project-detail"> 
     <div class='col-xs-12 col-sm-8 content'>
       <h1>{{project.title}}</h1>
@@ -27,4 +27,9 @@
       <dcl-wrapper [type]="project.component"></dcl-wrapper>
     </div>
   </div>
+</div>
+<div class="fixed-lowerleft">
+  <a (click)="goToTop()">
+    <img src="assets/images/totop.png" alt="up arrow" title="go to top" [class.hidden]="atTop" class="img-thumbnail">
+  </a>
 </div>

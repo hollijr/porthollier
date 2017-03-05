@@ -31,13 +31,33 @@ export class ProjectDetailComponent implements OnInit {
   }
 
   project:Project;
+  atTop:boolean = true;
 
   goBack():void {
     window.history.back();
   }
 
   trustAsHtml() {
-    let demo = this.project.demo.toString();
+    let demo = this.project.demo.join('');
     return this.sanitizer.bypassSecurityTrustHtml(demo);
+  }
+  
+  isElementInViewport(el) {
+    var rect = el.getBoundingClientRect()
+
+    return (
+       	rect.top    >= 0
+	    && rect.left   >= 0
+	    && rect.top <= (window.innerHeight || document.documentElement.clientHeight)
+    )
+  }  // end elementInViewport
+
+  // for tracking if top has scrolled out of page
+  isAtTop() {
+    this.atTop = (window.scrollY) ? false : true;
+  }
+
+  goToTop() {
+    window.scrollTo(0,0);
   }
 }
