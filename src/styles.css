@@ -78,3 +78,32 @@ img {
 .borderless {
   borders: none;
 }
+
+.fixed-lowerleft {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+/* override bootstrap */
+.container {
+  padding-left: 30px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 740px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1176px;
+  }
+}
+

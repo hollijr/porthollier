@@ -1,15 +1,16 @@
-<a id="top" class="anchor"></a>
+<a id="top" class="anchor"></a><a id="top1" class="anchor"></a>
 <div class="container" (window:scroll)="checkLazyLoad()" (window:resize)="checkLazyLoad()" >
   <div class="col-xs-12">
     <h2>My Artworks</h2>
     <ul class="goto">
       <!--<li *ngFor="let cat of categories"><a (click)="goToCategory(cat)">{{cat.name}}</a></li>-->
-      <li *ngFor="let cat of categories" class="page-nav"><a [routerLink]="['.']" fragment="{{cat.anchorId}}">{{cat.name}}</a></li>
+      <li *ngFor="let cat of categories" class="page-nav"><a [routerLink]="['.']" fragment="{{fragments[cat.anchorId]}}"  
+        (click)="toggleFragment(cat.anchorId)">{{cat.name}}</a></li>
     </ul>
     <div class="projects">
       <div *ngFor="let cat of categories; let i = index" class="row grid grid-pad">
         <hr>
-        <a id="{{cat.anchorId}}" class="anchor"><h3>{{cat.name}}</h3></a>
+        <a id="{{cat.anchorId}}" class="anchor"><h3>{{cat.name}}</h3></a><a id="{{cat.anchorId}}1" class="anchor"></a>
 
         <div *ngFor="let artwork of artworks[i]" (click)="goToDetail(artwork)" class="col-xs-6 col-sm-4 col-md-3 project">
           <div class="project-wrapper">
@@ -26,4 +27,9 @@
       </div>
     </div>
   </div>
+</div>
+<div class="fixed-lowerleft">
+  <a [routerLink]="['.']" [fragment]="fragments['top']" (click)="toggleFragment('top')">
+    <img src="assets/images/totop.png" alt="up arrow" title="go to top" [class.hidden]="atTop()" class="img-thumbnail">
+  </a>
 </div>

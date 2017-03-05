@@ -58,4 +58,5 @@ export class AppComponent implements OnInit, OnDestroy {
         //this.routerSubscription.unsubscribe();
         this._subscriptions.forEach(subscription => subscription.unsubscribe());
     }
+
 }

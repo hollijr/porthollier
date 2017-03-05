@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute, Params } from '@angular/router';
+import { Router, ActivatedRoute, Params, NavigationEnd } from '@angular/router';
 
 import { Art } from './art';
 import { ArtworkService } from '../services/artwork.service';  // model
@@ -22,11 +22,23 @@ export class ArtworksComponent implements OnInit {
       // + converts the 'id' string to a number
       let id = +params['artid'];
       this.selectedArtwork = id;
-      console.log("returned id of " + id + ", selected " + this.selectedArtwork);
     });
     
+    // workaround to scroll to fragment per https://github.com/angular/angular/issues/6595
     // subscribe to fragment observable to redirect on page
-    this.route.fragment.forEach((frag: string) => {
+    this.router.events.subscribe(s => {
+      if (s instanceof NavigationEnd) {
+        const tree = this.router.parseUrl(this.router.url);
+        if (tree.fragment) {
+          // you can use DomAdapter
+          const element = document.querySelector("#" + tree.fragment);
+          if (element) { 
+            element.scrollIntoView(element); 
+          }
+        }
+      }
+    });
+    /*this.route.fragment.forEach((frag: string) => {
       this.fragment = frag;
       if (frag) {
           frag = "#" + frag;
@@ -41,7 +53,7 @@ export class ArtworksComponent implements OnInit {
             console.log('scrolled to ' + frag + ", element: " + element);
           }
         }
-    }); 
+    }); */
     
     this.images = new Array();
     this.loaded = new Array();
@@ -60,11 +72,13 @@ export class ArtworksComponent implements OnInit {
   selectedArtwork:number;
   artworks:[Art[]];
   innerWidth:number = window.innerWidth;
-  fragment:string;
+;
   images;
   loaded:Art[] = new Array();
   arrayIsReversed:boolean;
   imageCt:number;
+  
+  fragments = { top: "top" };
 
   onSelect(artwork:Art): void {
     this.selectedArtwork = artwork.id;
@@ -72,7 +86,6 @@ export class ArtworksComponent implements OnInit {
 
   isSelected(id:number) {
     if (id === this.selectedArtwork) {
-      console.log("selected: " + id);
     }
     return id === this.selectedArtwork;
   }
@@ -80,6 +93,11 @@ export class ArtworksComponent implements OnInit {
   getArtworks():void {
     this.categoryService.getCategories().then((response) => {
       this.categories = response;
+    }).then(() => {
+      for (let i in this.categories) {
+        let key = this.categories[i].anchorId;
+        this.fragments[key] = key;
+      }
     });
     this.artworkService.getArtworks().then((result) => {
       this.artworks = result;  
@@ -97,10 +115,8 @@ export class ArtworksComponent implements OnInit {
   goToCategory(category:Category):void {
     this.selectedCategory = category;
     let frag = category.anchorId;
-    console.log("go to " + frag);
     //window.location.hash = category.anchorId;
     this.router.navigate(['.'], { relativeTo: this.route, fragment: category.anchorId.toString() });
-    console.log('navigated to ' + frag);
     //this.router.navigateByUrl(this.router.createUrlTree(['/artworks'], { fragment: frag }));
     //console.log('tree created');
   }
@@ -158,7 +174,6 @@ export class ArtworksComponent implements OnInit {
   doLazyLoad(artwork) {
     if (artwork.srcset !== artwork.SRCSET) {
       artwork.srcset = artwork.SRCSET;
-
     }
   }
 
@@ -171,4 +186,21 @@ export class ArtworksComponent implements OnInit {
 	    && rect.top <= (window.innerHeight || document.documentElement.clientHeight)
     )
   }  // end elementInViewport
+
+  // for tracking if top has scrolled out of page
+  atTop() {
+    const element = document.querySelector("#top");
+    if (element) return this.isElementInViewport(element);
+    return true;
+  }
+
+  // workaround for not being able to go to fragment more than once
+  toggleFragment(key) {
+    console.log(key);
+    let frag = this.fragments[key];
+    if (frag.endsWith("1")) frag = frag.substr(0, frag.length - 1);
+    else frag = frag + "1";
+    this.fragments[key] = frag;
+  }
+
 }
