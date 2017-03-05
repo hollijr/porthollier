@@ -10,7 +10,8 @@
     <div class="projects">
       <div *ngFor="let cat of categories; let i = index" class="row grid grid-pad">
         <hr>
-        <a id="{{cat.anchorId}}" class="anchor"><h3>{{cat.name}}</h3></a><a id="{{cat.anchorId}}1" class="anchor"></a>
+        <a id="{{cat.anchorId}}1" class="anchor"></a>
+        <a id="{{cat.anchorId}}" class="anchor"><h3>{{cat.name}}</h3></a>
 
         <div *ngFor="let artwork of artworks[i]" (click)="goToDetail(artwork)" class="col-xs-6 col-sm-4 col-md-3 project">
           <div class="project-wrapper">
