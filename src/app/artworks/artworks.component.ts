@@ -26,34 +26,34 @@ export class ArtworksComponent implements OnInit {
     
     // workaround to scroll to fragment per https://github.com/angular/angular/issues/6595
     // subscribe to fragment observable to redirect on page
-    this.router.events.subscribe(s => {
-      if (s instanceof NavigationEnd) {
-        const tree = this.router.parseUrl(this.router.url);
-        if (tree.fragment) {
-          // you can use DomAdapter
-          const element = document.querySelector("#" + tree.fragment);
-          if (element) { 
-            element.scrollIntoView(element); 
+        /*
+        this.router.events.subscribe(s => {
+          if (s instanceof NavigationEnd) {
+            const tree = this.router.parseUrl(this.router.url);
+            if (tree.fragment) {
+              // you can use DomAdapter
+              const element = document.querySelector("#" + tree.fragment);
+              if (element) { 
+                element.scrollIntoView(element); 
+              }
+            }
           }
-        }
-      }
-    });
-    /*this.route.fragment.forEach((frag: string) => {
-      this.fragment = frag;
+        });
+        */
+    this.route.fragment.forEach((frag: string) => {
       if (frag) {
           frag = "#" + frag;
           console.log(frag);
           const element = document.querySelector(frag);
-          console.log(element);
           if (element) { 
+            /*
             var rect = element.getBoundingClientRect();
-            console.log("top: " + rect.top + ", left: " + rect.left);
             window.scrollTo(rect.left, rect.top);
-            //element.scrollIntoView(true);  // experimental method
-            console.log('scrolled to ' + frag + ", element: " + element);
+            */
+            element.scrollIntoView(true);  // experimental method
           }
         }
-    }); */
+    }); 
     
     this.images = new Array();
     this.loaded = new Array();

@@ -34,7 +34,7 @@ export const ARTWORK:[Art[]] = [
       desc: '<p>So these are not my best work.  Rather, they are cookies I made up and decorated quickly in order to get ideas for how to decorate these cutter shapes in the future.  I was also experimenting with different types of royal icing to see which had the best flavor and best consistency.</p>',
       date: '',
       content: [
-        {img: 'assets/images/artwork/cookies/greencreatures.jpg', desc: "" },
+        {img: 'assets/images/artwork/cookies/greenCreatures.jpg', desc: "" },
         {img: 'assets/images/artwork/cookies/yellowbirds.jpg', desc: "" },
         {img: 'assets/images/artwork/cookies/graycreatures.jpg', desc: "" },
         {img:'assets/images/artwork/cookies/wildAnimals.jpg', desc: ''},

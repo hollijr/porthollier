@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="to-top">
-          <a [routerLink]="['.']" fragment="top" class="page-nav">Back to Top</a>
+          <a [routerLink]="['.']" [fragment]="fragments['top']" (click)="toggleFragment('top')" class="page-nav">Back to Top</a>
         </div>
       </div>
     </div>
