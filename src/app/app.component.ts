@@ -38,12 +38,17 @@ export class AppComponent implements OnInit, OnDestroy {
             this._routeScrollPositions[urlPath] = window.pageYOffset;
           }
           if (currRouteEvent instanceof NavigationEnd) {
-            // in some cases it need timeout
-            setTimeout(()=>{
-              // url path without parameters
-              let urlPath = (currRouteEvent.urlAfterRedirects || currRouteEvent.url).split(';',1)[0];
-              window.scrollTo(0, this._routeScrollPositions[urlPath] || 0);
-            }, 0);
+            
+            // make sure that the route didn't go to fragment
+            let url = currRouteEvent.url;
+            if (url.indexOf('#') === -1) {
+               // in some cases it need timeout
+              setTimeout(()=>{
+                // url path without parameters
+                let urlPath = (currRouteEvent.urlAfterRedirects || currRouteEvent.url).split(';',1)[0];
+                window.scrollTo(0, this._routeScrollPositions[urlPath] || 0);
+              }, 0);
+            }
           }
         })
       );

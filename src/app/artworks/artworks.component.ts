@@ -29,9 +29,15 @@ export class ArtworksComponent implements OnInit {
     this.route.fragment.forEach((frag: string) => {
       this.fragment = frag;
       if (frag) {
-          const element = document.querySelector("#" + frag);
+          frag = "#" + frag;
+          console.log(frag);
+          const element = document.querySelector(frag);
+          console.log(element);
           if (element) { 
-            element.scrollIntoView(true);  // experimental method
+            var rect = element.getBoundingClientRect();
+            console.log("top: " + rect.top + ", left: " + rect.left);
+            window.scrollTo(rect.left, rect.top);
+            //element.scrollIntoView(true);  // experimental method
             console.log('scrolled to ' + frag + ", element: " + element);
           }
         }
@@ -87,17 +93,24 @@ export class ArtworksComponent implements OnInit {
     });
   }
 
+
   goToCategory(category:Category):void {
     this.selectedCategory = category;
+    let frag = category.anchorId;
+    console.log("go to " + frag);
     //window.location.hash = category.anchorId;
-    this.router.navigate(['.'], { relativeTo: this.route, fragment: category.anchorId });
+    this.router.navigate(['.'], { relativeTo: this.route, fragment: category.anchorId.toString() });
+    console.log('navigated to ' + frag);
+    //this.router.navigateByUrl(this.router.createUrlTree(['/artworks'], { fragment: frag }));
+    //console.log('tree created');
   }
+
 
   goToDetail(artwork:Art):void {
     this.onSelect(artwork);
     // this.selectedArtwork.id is a required parameter for the project-detail component
     // so include it after the url in the 'link parameters array':
-    this.router .navigate(['/artworks', this.selectedArtwork]);
+    this.router.navigate(['/artworks', this.selectedArtwork]);
   }
 
   // stores artwork & DOMimg element in images array -- only want to store it in the array once,

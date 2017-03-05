@@ -3,8 +3,8 @@
   <div class="col-xs-12">
     <h2>My Artworks</h2>
     <ul class="goto">
-      <li *ngFor="let cat of categories"><a (click)="goToCategory(cat)">{{cat.name}}</a></li>
-      <!--<li *ngFor="let cat of categories" class="page-nav"><a [routerLink]="['/artworks']" fragment="{{cat.anchorId}}">{{cat.name}}</a></li>-->
+      <!--<li *ngFor="let cat of categories"><a (click)="goToCategory(cat)">{{cat.name}}</a></li>-->
+      <li *ngFor="let cat of categories" class="page-nav"><a [routerLink]="['.']" fragment="{{cat.anchorId}}">{{cat.name}}</a></li>
     </ul>
     <div class="projects">
       <div *ngFor="let cat of categories; let i = index" class="row grid grid-pad">
@@ -21,7 +21,7 @@
           </div>
         </div>
         <div class="to-top">
-          <a [routerLink]="['/artworks']" fragment="top" class="page-nav">Back to Top</a>
+          <a [routerLink]="['.']" fragment="top" class="page-nav">Back to Top</a>
         </div>
       </div>
     </div>
