@@ -69,7 +69,7 @@ export const PROJECTS:Project[] = [
     "component": null,
     "demo": [],
     "demoLink": "",
-    "codeRepo": "https://github.com/hollijr/a-little-control",
+    "codeRepo": "https://github.com/hollijr/porthollier",
     "isFavorite": true },  
   { "id": 14, 
     "title": "Kent Swim & Tennis Club Web Site", 

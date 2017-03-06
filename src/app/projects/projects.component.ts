@@ -17,9 +17,9 @@ export class ProjectsComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    //this.getPhpProjects();      // PUT THIS BACK FOR PRODUCTION
+    this.getPhpProjects();      // PUT THIS BACK FOR PRODUCTION
     // save for development testing
-    this.getProjects();           // COMMENT OUT FOR PRODUCTION
+    //this.getProjects();           // COMMENT OUT FOR PRODUCTION
   }
 
   selectedProject:Project;

@@ -24,7 +24,7 @@ export class DashboardComponent implements OnInit {
   favorites:Project[] = [];
   
   goToDetail(project:Project):void {
-    let link = ['/detail', project.id];
+    let link = ['/projects', project.id];
     this.router.navigate(link);
   }
 
